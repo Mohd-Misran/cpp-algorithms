@@ -13,5 +13,5 @@ int main()
       n = n / 10;
     }
   
-  	cout << rev;
+  	cout << "Reversed number is " << rev;
 }
