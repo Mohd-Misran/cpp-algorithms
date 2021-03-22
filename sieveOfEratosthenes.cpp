@@ -1,12 +1,12 @@
 #include <iostream>
 #include <cmath>
+#include <cstring>
 using namespace std;
 
 void sieveOfEratosthenes(int n) {
 
     bool *prime = new bool[n + 1];
-    for (int i = 0; i < n + 1; i++)
-        prime[i] = true;
+    memset(prime, true, sizeof(prime));
   
     for (int p = 2; p *p <= n; p++) {
     
