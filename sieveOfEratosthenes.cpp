@@ -26,6 +26,7 @@ int main()
     int n;
     cout << "Enter value of n: ";
   	cin >> n;
+    cout << "Prime numbers less than or equal to " << n << " are:" << endl;
   	sieveOfEratosthenes(n);
     return 0;
 }
