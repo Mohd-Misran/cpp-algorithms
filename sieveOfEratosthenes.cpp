@@ -5,7 +5,7 @@ using namespace std;
 
 void sieveOfEratosthenes(int n) {
 
-    bool *prime = new bool[n + 1];
+    bool prime[n + 1];
     memset(prime, true, sizeof(prime));
   
     for (int p = 2; p *p <= n; p++) {
